@@ -1,1 +1,57 @@
-/* her yerde kullanılacak classlar */
+/* General Classes */
+
+/* Text */
+.text-center{
+    text-align: center;
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.50rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+
+/* colors */
+.bg-dark-blue{
+    background: #062e51;
+}
+.bg-light-blue{
+    background: #336ea2;
+}
+
+/* Buttons */
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+.btn-primary{
+    background: #0072b1;
+}
+.btn-primary:hover{
+    background: #fff;
+    color: #0072b1;
+    border: 1px solid #0072b1;
+}
+.btn-dark{
+    background: #333;
+}
+.btn-dark:hover{
+    background: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+.btn-block{
+    width: 100%;
+    text-align: center;
+}
+
+/* container */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
