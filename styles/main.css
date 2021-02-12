@@ -53,3 +53,23 @@ html{
     opacity: 0.7;
     font-style: italic;
 }
+
+/* Techs */
+#techs{
+    color: #fff;
+    padding: 1rem;
+}
+#techs .items{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+#techs .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#techs .items .item:hover{
+    color: red;
+    opacity: 0.7;
+}

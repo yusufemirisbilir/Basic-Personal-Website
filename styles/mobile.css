@@ -4,4 +4,11 @@
     padding-bottom: 0.5rem;
     overflow: hidden;
     height: 80px;
-}   
+}
+
+#techs .items{
+    flex-direction: column;
+}
+#techs .item .item{
+    width: 100%;
+}
