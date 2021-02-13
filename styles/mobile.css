@@ -9,6 +9,9 @@
 #techs .items{
     flex-direction: column;
 }
-#techs .item .item{
+#techs .items .item{
     width: 100%;
+}
+.certificates .certificate{
+    flex-direction: column;
 }
